@@ -1,0 +1,218 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#body {
+	font-family: arial;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: #0287C3;
+	transition: 0.5s;
+}
+
+.Log-sign {
+	position: relative;
+	width: 600px;
+	height: 350px;
+	background-color: #31ABE1;
+	margin: 160px auto;
+	box-shadow: 0px 0px 30px #3335;
+}
+
+.login-sign-box {
+	position: absolute;
+	left: 0%;
+	top: -35px;
+	width: 50%;
+	height: 420px;
+	background-color: #fff;
+	box-shadow: 0px 0px 40px #3335;
+}
+
+
+.login-div {
+	position: absolute;
+	top: 0%;
+	width: 50%;
+	height: 100%;
+	transition: 0.5s;  
+}
+
+.Click_SignUn {
+	left: 0%;
+	transition: 0.5s;
+}
+.Click_SignIn {
+	right: 0%;
+	transition: 0.5s;
+}
+
+
+.login-div p {
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	padding-top: 135px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+.btn-sign-up  {
+	width: 85px;
+	height: 35px;
+	margin: auto;
+	line-height: 35px;
+	font-size: 16px;
+	background-color: #fff;
+	color: #333;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.btn-sign-Ip  {
+	width: 85px;
+	height: 35px;
+	margin: auto;
+	line-height: 35px;
+	font-size: 16px;
+	background-color: #fff;
+	color: #333;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+
+.login-sign-box h2 {
+	font-size: 22px;
+	margin-left: 20px;
+	margin-top: 100px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	color: #333;
+}
+.login-sign-box form {
+	width: 85%;
+	margin: auto;
+	margin-left: 20px;
+}
+.input-div {
+	width: 100%;
+	position: relative;
+}
+.login-sign-box form input {
+	width: 100%;
+	padding: 5px 40px 5px 10px;
+	margin-bottom: 15px;
+	color: #333;
+	border: 1px solid #333;
+	outline: none;
+}
+.login-sign-box form button {
+	width: 85px;
+	height: 35px;
+	background-color: #31ABE1;
+	border: none;
+	outline: none;
+	transition: 0.3s;
+	color: #fff;
+}
+.login-sign-box form button:hover {
+	background-color: #0287C3;
+}
+.login-sign-box p {
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.login-sign-box p a {
+	text-decoration: none;
+	color: #333;
+}
+.login-sign-box p a:hover {
+	text-decoration: underline;
+}
+
+.signUP h2 {
+	margin-top: 65px;
+}
+.signUP button {
+	background-color: #EC3446 !important; 
+}
+
+
+.signUP {
+	transition: 0.5s;
+	z-index: 1;
+	opacity: 0;
+}
+
+.LogIn {
+	z-index: 2;
+	opacity: 1;
+	transition: 0.5s;
+}
+.input-div .ok_u {
+	position: absolute;
+	top: 35%;
+	transform: translateY(-50%);
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: green !important;
+	text-align: center;
+	font-size: 16px;
+	color: #fff !important;
+	line-height: 24px;
+	display: none;
+}
+.input-div .close_u {
+	position: absolute;
+	top: 35%;
+	transform: translateY(-50%);
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: red !important;
+	text-align: center;
+	font-size: 16px;
+	color: #fff !important;
+	line-height: 24px;
+	display: none;
+}
+
+
+
+.input-div .ok_p , .ico_1 {
+	position: absolute;
+	top: 35%;
+	transform: translateY(-50%);
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: green !important;
+	text-align: center;
+	font-size: 16px;
+	color: #fff !important;
+	line-height: 24px;
+	display: none;
+}
+.input-div .close_p , .ico_2 {
+	position: absolute;
+	top: 35%;
+	transform: translateY(-50%);
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: red !important;
+	text-align: center;
+	font-size: 16px;
+	color: #fff !important;
+	line-height: 24px;
+	display: none;
+}
